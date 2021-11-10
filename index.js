@@ -1,4 +1,2 @@
-import { Telegraf } from 'telegraf'
-
-console.log(Telegraf)
-
+import fetch from 'node-fetch'
+console.log(fetch)

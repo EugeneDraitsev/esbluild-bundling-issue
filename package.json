@@ -5,10 +5,10 @@
     "build": "esbuild index.js --bundle --outfile=out.js --platform=node --target=node14 --analyze"
   },
   "dependencies": {
-    "telegraf": "4.4.2"
+    "node-fetch": "^2.6.6"
   },
   "devDependencies": {
-    "esbuild": "^0.13.13",
-    "lerna": "^3.22.1"
+    "encoding": "^0.1.13",
+    "esbuild": "^0.13.13"
   }
 }
